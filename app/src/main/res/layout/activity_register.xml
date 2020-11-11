@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp"
+    android:orientation="vertical"
+    tools:context=".controller.userdata.RegisterActivity">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:textSize="20sp"
+        android:textColor="#FF80AB"
+        android:text="@string/form_register"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/edt_nama_user"
+        android:layout_marginTop="20dp"
+        android:hint="@string/nama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/edt_jk"
+        android:hint="@string/jenis_kelamin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/edt_image_user"
+        android:hint="@string/photo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/edt_email_user"
+        android:hint="@string/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/edt_username"
+        android:hint="@string/username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/edt_password"
+        android:inputType="textPassword"
+        android:hint="@string/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_register"
+        android:textSize="16sp"
+        android:textColor="#ffffff"
+        android:background="@color/colorAccent"
+        android:text="@string/register"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tv_go_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:textColor="@color/colorPrimary"
+        android:text="@string/sudah_punya_akun_login_disini"
+        />
+
+</androidx.appcompat.widget.LinearLayoutCompat>

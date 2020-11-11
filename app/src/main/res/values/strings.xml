@@ -1,0 +1,16 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">ResepNew</string>
+    <string name="nama">Nama</string>
+    <string name="jenis_kelamin">Jenis Kelamin</string>
+    <string name="photo">Photo</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="register">Register</string>
+    <string name="form_register">Form Register</string>
+    <string name="email">Email</string>
+    <string name="login">Login</string>
+    <string name="apakah_anda_belum_punya_akun_register_sekarang">Apakah anda belum punya akun.? Register Sekarang</string>
+    <string name="sudah_punya_akun_login_disini">Sudah punya akun.? Login disini</string>
+    <string name="welcome">WELCOME</string>
+    <string name="logout">Logout</string>
+</resources>

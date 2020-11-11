@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_margin="16dp"
+    tools:context=".controller.userdata.LoginActivity">
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/edt_login_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingEnd="10dp"
+        android:paddingStart="10dp"
+        android:hint="@string/email"
+        tools:ignore="RtlSymmetry" />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/edt_login_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingEnd="10dp"
+        android:paddingStart="10dp"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        tools:ignore="RtlSymmetry" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_login"
+        android:textColor="#ffffff"
+        android:text="@string/login"
+        android:background="@color/colorPrimary"
+        android:layout_marginTop="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <ProgressBar
+        android:visibility="gone"
+        android:id="@+id/pd_login"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tv_register_now"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/colorAccent"
+        android:textSize="16sp"
+        android:text="@string/apakah_anda_belum_punya_akun_register_sekarang"
+        android:gravity="center"/>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
